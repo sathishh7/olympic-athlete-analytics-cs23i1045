@@ -1,0 +1,3 @@
+Workload,Task_Description,Local_Framework,Local_Runtime_Sec,Spark_Framework,Spark_Runtime_Sec,Speedup_Ratio_Local_vs_Spark,Performance_Winner,Analytical_Reason
+Association Mining,"Frequent Pattern Mining (min_sup=0.03, min_conf=0.40)",Python / mlxtend Apriori,0.0287,PySpark MLlib FP-Growth (local[4]),0.4705,16.38,Local Python (mlxtend),In-memory vertical bitsets avoid JVM serialization and Spark DAG scheduling overhead on 29k rows.
+Decision Tree Classifier,"Multiclass Medal Tier Prediction (max_depth=5, 23k train / 5.8k test)",Scikit-Learn DecisionTreeClassifier,0.1218,PySpark MLlib DecisionTreeClassifier (local[4]),1.4903,12.24,Local Scikit-Learn,C-optimized single-threaded tree induction outperforms Py4J IPC and distributed RDD partitioning for small memory footprint.

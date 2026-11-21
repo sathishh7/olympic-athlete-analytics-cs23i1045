@@ -1,0 +1,12 @@
+Attribute,Raw_Type,Clean_Type,Description,Example_Values,Role_in_Analysis
+City,String,Categorical,Host city of the Olympic Games edition,"Athens, Paris, Beijing, London, Sydney",Descriptive / Host Advantage Analysis
+Edition,Integer,Integer (Year),Four-digit year representing the Olympic Games edition (1896 to 2008),"1896, 1920, 1980, 2008","Temporal trend analysis, Era grouping, feature in models"
+Sport,String,Categorical,High-level Olympic sport category governed by an international federation,"Aquatics, Athletics, Rowing, Gymnastics, Wrestling","Primary grouping, association mining, classifier feature"
+Discipline,String,Categorical,Specific branch of a sport comprising one or more events,"Swimming, Diving, Athletics, Fencing, Cycling Track","Granular event grouping, ARM item"
+Athlete,String,Text (Identifier),"Full name of the medalist in ""SURNAME, Given name"" format","PHELPS, Michael; LATYNINA, Larisa; LEWIS, Carl","Individual rankings, Group split key (preventing data leakage)"
+NOC,String,Categorical (3-letter code),Three-letter IOC National Olympic Committee country code,"USA, URS, GBR, GER, FRA, ITA, CHN, IND","Geographic analysis, national specialization, ARM item"
+Gender,String,Categorical (Binary),Biological sex / gender of the participating athlete (Men / Women),"Men, Women","Gender parity trends, feature for classification & ARM"
+Event,String,Categorical,Specific competitive event contested within a sport/discipline,"100m, marathon, 4x100m relay, singles, team","Event-level aggregation, team vs individual classification"
+Event_gender,String,"Categorical (M, W, X)","Gender category designation of the event (M: Men, W: Women, X: Mixed)","M, W, X","Gender consistency audit, mixed event analysis"
+Medal,String,Categorical (Ordinal),"Medal tier awarded to the competitor (Gold, Silver, Bronze)","Gold, Silver, Bronze","Target variable for predictive classification, ARM item"
+Era,Derived (from Edition),Categorical (Ordinal),Historical epoch binned into 5 recognized geopolitical eras,"Pre-WWI, Interwar, Post-WWII, Late Cold War, Modern Era","Longitudinal slicing, temporal ARM transactions"

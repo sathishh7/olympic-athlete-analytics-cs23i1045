@@ -1,0 +1,61 @@
+|--- NOC_USA <= 0.50
+|   |--- NOC_IND <= 0.50
+|   |   |--- NOC_URS <= 0.50
+|   |   |   |--- Sport_Basketball <= 0.50
+|   |   |   |   |--- NOC_URU <= 0.50
+|   |   |   |   |   |--- class: Bronze
+|   |   |   |   |--- NOC_URU >  0.50
+|   |   |   |   |   |--- class: Gold
+|   |   |   |--- Sport_Basketball >  0.50
+|   |   |   |   |--- NOC_LTU <= 0.50
+|   |   |   |   |   |--- class: Silver
+|   |   |   |   |--- NOC_LTU >  0.50
+|   |   |   |   |   |--- class: Bronze
+|   |   |--- NOC_URS >  0.50
+|   |   |   |--- Discipline_Hockey <= 0.50
+|   |   |   |   |--- Discipline_Rowing <= 0.50
+|   |   |   |   |   |--- class: Gold
+|   |   |   |   |--- Discipline_Rowing >  0.50
+|   |   |   |   |   |--- class: Silver
+|   |   |   |--- Discipline_Hockey >  0.50
+|   |   |   |   |--- class: Bronze
+|   |--- NOC_IND >  0.50
+|   |   |--- Edition <= 1966.00
+|   |   |   |--- Edition <= 1958.00
+|   |   |   |   |--- Edition <= 1950.00
+|   |   |   |   |   |--- class: Gold
+|   |   |   |   |--- Edition >  1950.00
+|   |   |   |   |   |--- class: Gold
+|   |   |   |--- Edition >  1958.00
+|   |   |   |   |--- class: Gold
+|   |   |--- Edition >  1966.00
+|   |   |   |--- class: Bronze
+|--- NOC_USA >  0.50
+|   |--- Sport_Basketball <= 0.50
+|   |   |--- Discipline_Water polo <= 0.50
+|   |   |   |--- Sport_Hockey <= 0.50
+|   |   |   |   |--- Discipline_Rugby <= 0.50
+|   |   |   |   |   |--- class: Gold
+|   |   |   |   |--- Discipline_Rugby >  0.50
+|   |   |   |   |   |--- class: Gold
+|   |   |   |--- Sport_Hockey >  0.50
+|   |   |   |   |--- class: Bronze
+|   |   |--- Discipline_Water polo >  0.50
+|   |   |   |--- Edition <= 1978.00
+|   |   |   |   |--- class: Bronze
+|   |   |   |--- Edition >  1978.00
+|   |   |   |   |--- Gender_Men <= 0.50
+|   |   |   |   |   |--- class: Silver
+|   |   |   |   |--- Gender_Men >  0.50
+|   |   |   |   |   |--- class: Silver
+|   |--- Sport_Basketball >  0.50
+|   |   |--- Edition <= 1970.00
+|   |   |   |--- class: Gold
+|   |   |--- Edition >  1970.00
+|   |   |   |--- Edition <= 1980.00
+|   |   |   |   |--- class: Silver
+|   |   |   |--- Edition >  1980.00
+|   |   |   |   |--- Edition <= 1994.00
+|   |   |   |   |   |--- class: Gold
+|   |   |   |   |--- Edition >  1994.00
+|   |   |   |   |   |--- class: Gold

@@ -1,0 +1,44 @@
+{
+    "hardware_environment": {
+        "OS": "Darwin",
+        "OS_Release": "24.6.0",
+        "Architecture": "arm64",
+        "Processor": "arm",
+        "Physical_Cores": 8,
+        "Logical_Cores": 8,
+        "Total_RAM_GB": 8.0,
+        "Python_Version": "3.12.12",
+        "PySpark_Version": "4.3.0"
+    },
+    "dataset_scope": {
+        "records_count": 29215,
+        "columns_count": 11,
+        "storage_size_mb": 3.01
+    },
+    "technique_1_association_mining": {
+        "algorithm": "Spark ML FPGrowth vs Local Apriori",
+        "min_support": 0.03,
+        "min_confidence": 0.4,
+        "spark_frequent_itemsets": 224,
+        "spark_association_rules": 212,
+        "spark_runtime_mean_sec": 0.4705,
+        "spark_runtime_std_sec": 0.1383,
+        "local_runtime_mean_sec": 0.0287,
+        "local_runtime_std_sec": 0.0075
+    },
+    "technique_2_decision_tree": {
+        "algorithm": "Spark MLlib DecisionTreeClassifier vs Local Scikit-Learn",
+        "max_depth": 5,
+        "spark_test_accuracy": 0.3872,
+        "local_test_accuracy": 0.3983,
+        "spark_runtime_mean_sec": 1.4903,
+        "spark_runtime_std_sec": 0.101,
+        "local_runtime_mean_sec": 0.1218,
+        "local_runtime_std_sec": 0.0045
+    },
+    "distributed_systems_findings": [
+        "For moderate dataset sizes (29,215 records, 2.4 MB), single-machine local execution in C-optimized libraries (Scikit-Learn, mlxtend) is faster than PySpark.",
+        "PySpark incurs structural fixed overheads: JVM process spawning, Py4J socket IPC communication, Catalyst query optimization, DAG stage creation, and RDD serialization.",
+        "Distributed frameworks like Spark demonstrate horizontal scaling dominance when data exceeds single-node RAM capacity (>10-100 GB) across multi-node clusters, whereas single-machine local Spark incurs the communication cost without the cluster scaling benefit."
+    ]
+}

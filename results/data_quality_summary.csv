@@ -1,0 +1,18 @@
+Metric,Value
+Raw File Total Lines,29221
+Preamble / Disclaimer Rows Excluded,4
+Raw Data Records Ingested,29216
+Attributes Present,10
+Missing / Null Values Identified,0 (0.0%)
+Exact Duplicate Records Removed,1
+Domain Inconsistency Rectified,1 (Joyce Chepchumba: Men -> Women)
+Final Cleaned Analytical Records,29215
+Distinct Olympic Editions,26 (1896 - 2008)
+Distinct Host Cities,22
+Distinct Sports Represented,42
+Distinct Disciplines Represented,56
+Distinct Competitive Events,577
+Distinct Individual Athletes,21413
+Distinct National Committees (NOCs),138
+Medalist Class Distribution,"Gold: 9849 (33.7%), Bronze: 9689 (33.2%), Silver: 9677 (33.1%)"
+Dataset Scope Limitation,Medalist records only; non-medalists are not present

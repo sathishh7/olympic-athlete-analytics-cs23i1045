@@ -1,0 +1,213 @@
+antecedent_str,consequent_str,confidence,lift
+Sport=Equestrian,Event_gender=X,1.0,15.614644575093532
+Event_gender=X,Sport=Equestrian,0.4778193479422769,15.614644575093532
+"Gender=Women, Sport=Aquatics",Event_gender=W,1.0,4.014152239626271
+"Gender=Women, Sport=Athletics",Event_gender=W,1.0,4.014152239626271
+"Era=Modern Era (1992-2008), Gender=Women, Medal=Gold",Event_gender=W,0.9771554900515844,3.9224508988536737
+"Era=Modern Era (1992-2008), Gender=Women, Medal=Bronze",Event_gender=W,0.9754866618601298,3.915751968431395
+"Gender=Women, Medal=Gold",Event_gender=W,0.9754527162977867,3.91561570577629
+"Era=Post-WWII (1948-1968), Gender=Women",Event_gender=W,0.9741379310344828,3.910337957566971
+"Era=Modern Era (1992-2008), Gender=Women",Event_gender=W,0.9741337237676916,3.9103210689575585
+"Gender=Women, Medal=Bronze",Event_gender=W,0.9729622266401591,3.905618501139358
+Event_gender=W,Gender=Women,1.0,3.8974119530416225
+"Event_gender=W, Medal=Silver",Gender=Women,1.0,3.8974119530416225
+"Event_gender=W, Sport=Athletics",Gender=Women,1.0,3.8974119530416225
+"Event_gender=W, Medal=Gold",Gender=Women,1.0,3.8974119530416225
+"Era=Late Cold War (1972-1988), Event_gender=W",Gender=Women,1.0,3.8974119530416225
+"Event_gender=W, Medal=Bronze",Gender=Women,1.0,3.8974119530416225
+"Era=Modern Era (1992-2008), Event_gender=W, Medal=Silver",Gender=Women,1.0,3.8974119530416225
+"Era=Modern Era (1992-2008), Event_gender=W, Medal=Gold",Gender=Women,1.0,3.8974119530416225
+"Era=Modern Era (1992-2008), Event_gender=W",Gender=Women,1.0,3.8974119530416225
+"Event_gender=W, NOC=USA",Gender=Women,1.0,3.8974119530416225
+"Era=Post-WWII (1948-1968), Event_gender=W",Gender=Women,1.0,3.8974119530416225
+"Era=Modern Era (1992-2008), Event_gender=W, Medal=Bronze",Gender=Women,1.0,3.8974119530416225
+"Event_gender=W, Sport=Aquatics",Gender=Women,1.0,3.8974119530416225
+Gender=Women,Event_gender=W,0.9709178228388474,3.8974119530416225
+"Era=Late Cold War (1972-1988), Gender=Women",Event_gender=W,0.9700338327694539,3.893863482324759
+"Era=Modern Era (1992-2008), Gender=Women, Medal=Silver",Event_gender=W,0.9697193500738552,3.892601100907898
+"Gender=Women, NOC=USA",Event_gender=W,0.9670781893004116,3.881999079473966
+"Gender=Women, Medal=Silver",Event_gender=W,0.9643429487179487,3.871019407363956
+NOC=URS,Era=Late Cold War (1972-1988),0.6012689116642265,2.5528369792574304
+"Era=Modern Era (1992-2008), Medal=Gold",Event_gender=W,0.4190897597977244,1.6822900978964712
+"Event_gender=W, Medal=Bronze",Era=Modern Era (1992-2008),0.5529219452390682,1.679344488009084
+"Event_gender=W, Gender=Women, Medal=Bronze",Era=Modern Era (1992-2008),0.5529219452390682,1.679344488009084
+"Gender=Women, Medal=Bronze",Era=Modern Era (1992-2008),0.5514910536779324,1.6749985583949263
+"Era=Modern Era (1992-2008), Medal=Silver",Gender=Women,0.4297048556013964,1.6747368405009064
+"Era=Modern Era (1992-2008), Medal=Silver",Event_gender=W,0.4166931132973659,1.672669593979465
+"Era=Modern Era (1992-2008), Medal=Gold",Gender=Women,0.4288874841972187,1.6715512074201901
+Event_gender=W,Era=Modern Era (1992-2008),0.5485023358065403,1.6659211706609913
+"Event_gender=W, Gender=Women",Era=Modern Era (1992-2008),0.5485023358065403,1.6659211706609913
+Era=Modern Era (1992-2008),Event_gender=W,0.41501195550473025,1.665921170660991
+"Event_gender=W, Medal=Gold",Era=Modern Era (1992-2008),0.5470297029702971,1.6614484636944828
+"Event_gender=W, Gender=Women, Medal=Gold",Era=Modern Era (1992-2008),0.5470297029702971,1.6614484636944828
+Gender=Women,Era=Modern Era (1992-2008),0.5466915688367129,1.6604214766155077
+Era=Modern Era (1992-2008),Gender=Women,0.42603181203867346,1.6604214766155077
+"Gender=Women, Medal=Gold",Era=Modern Era (1992-2008),0.5460764587525151,1.6585532531920917
+"Event_gender=W, Medal=Silver",Era=Modern Era (1992-2008),0.5454923140839218,1.656779078486514
+"Event_gender=W, Gender=Women, Medal=Silver",Era=Modern Era (1992-2008),0.5454923140839218,1.656779078486514
+"Gender=Women, Medal=Silver",Era=Modern Era (1992-2008),0.5424679487179487,1.6475934215401675
+"Era=Modern Era (1992-2008), Medal=Bronze",Event_gender=W,0.4095036319612591,1.6438099213723805
+"Era=Modern Era (1992-2008), Medal=Bronze",Gender=Women,0.4197941888619855,1.6361108894881145
+Sport=Aquatics,Event_gender=W,0.40203761755485895,1.6138402029218473
+Sport=Aquatics,Gender=Women,0.40203761755485895,1.5669062162306837
+"Event_gender=M, NOC=USA",Medal=Gold,0.4933058702368692,1.4632887601756661
+"Event_gender=M, Gender=Men, NOC=USA",Medal=Gold,0.4933058702368692,1.4632887601756661
+"Gender=Men, Sport=Athletics",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Rowing",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Aquatics",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Fencing",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Gymnastics",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Wrestling",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Hockey",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Cycling",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, Sport=Football",Event_gender=M,1.0,1.455945380245191
+"Gender=Men, NOC=USA",Medal=Gold,0.48717948717948717,1.445116125286701
+NOC=USA,Medal=Gold,0.48166089965397924,1.4287463888101335
+Sport=Wrestling,Event_gender=M,0.9754385964912281,1.4201853182742565
+"Gender=Men, NOC=URS",Event_gender=M,0.9573170731707317,1.3938013701127743
+"Era=Modern Era (1992-2008), Gender=Men, Medal=Silver",Event_gender=M,0.9543683917640512,1.389508251040903
+"Era=Modern Era (1992-2008), Gender=Men, Medal=Bronze",Event_gender=M,0.9540949400104329,1.3891101202235023
+"Era=Modern Era (1992-2008), Gender=Men",Event_gender=M,0.952544828835356,1.3868532430192826
+"Era=Modern Era (1992-2008), Gender=Men, Medal=Gold",Event_gender=M,0.9490868843386829,1.3818186647042072
+"Gender=Men, Medal=Gold, NOC=USA",Event_gender=M,0.9453947368421053,1.3764430996133812
+"Gender=Men, NOC=ITA",Event_gender=M,0.9359783588818755,1.362733367623542
+"Gender=Men, NOC=USA",Event_gender=M,0.9336538461538462,1.3593490040558465
+"Gender=Men, Medal=Bronze",Event_gender=M,0.9293281293560078,1.3530509966677848
+"Era=Pre-WWI (1896-1912), Gender=Men",Event_gender=M,0.9266521423384169,1.3491549057319272
+"Era=Pre-WWI (1896-1912), Gender=Men, Medal=Silver",Event_gender=M,0.9258872651356994,1.3480412863021758
+"Gender=Men, Medal=Silver",Event_gender=M,0.9254978415262498,1.3474743067970392
+"Era=Pre-WWI (1896-1912), Gender=Men, Medal=Gold",Event_gender=M,0.925343811394892,1.3472500473388702
+Event_gender=M,Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Cycling",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Shooting",Gender=Men,1.0,1.34513559556149
+"Era=Modern Era (1992-2008), Event_gender=M, Medal=Bronze",Gender=Men,1.0,1.34513559556149
+"Era=Pre-WWI (1896-1912), Event_gender=M, Medal=Gold",Gender=Men,1.0,1.34513559556149
+"Era=Late Cold War (1972-1988), Event_gender=M",Gender=Men,1.0,1.34513559556149
+"Era=Modern Era (1992-2008), Event_gender=M",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Hockey",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Medal=Silver",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, NOC=URS",Gender=Men,1.0,1.34513559556149
+"Era=Pre-WWI (1896-1912), Event_gender=M",Gender=Men,1.0,1.34513559556149
+"Era=Late Cold War (1972-1988), Event_gender=M, Medal=Bronze",Gender=Men,1.0,1.34513559556149
+"Era=Post-WWII (1948-1968), Event_gender=M",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Wrestling",Gender=Men,1.0,1.34513559556149
+"Era=Interwar (1920-1936), Event_gender=M",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, NOC=ITA",Gender=Men,1.0,1.34513559556149
+"Era=Post-WWII (1948-1968), Event_gender=M, Medal=Gold",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, NOC=GBR",Gender=Men,1.0,1.34513559556149
+"Era=Interwar (1920-1936), Event_gender=M, Medal=Bronze",Gender=Men,1.0,1.34513559556149
+"Era=Post-WWII (1948-1968), Event_gender=M, Medal=Bronze",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Athletics",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Football",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Gymnastics",Gender=Men,1.0,1.34513559556149
+"Era=Late Cold War (1972-1988), Event_gender=M, Medal=Gold",Gender=Men,1.0,1.34513559556149
+"Era=Interwar (1920-1936), Event_gender=M, Medal=Gold",Gender=Men,1.0,1.34513559556149
+"Era=Interwar (1920-1936), Event_gender=M, Medal=Silver",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Medal=Gold, NOC=USA",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Fencing",Gender=Men,1.0,1.34513559556149
+"Era=Post-WWII (1948-1968), Event_gender=M, Medal=Silver",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Aquatics",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Medal=Gold",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, NOC=USA",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Medal=Bronze",Gender=Men,1.0,1.34513559556149
+"Era=Late Cold War (1972-1988), Event_gender=M, Medal=Silver",Gender=Men,1.0,1.34513559556149
+"Era=Modern Era (1992-2008), Event_gender=M, Medal=Gold",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, Sport=Rowing",Gender=Men,1.0,1.34513559556149
+"Era=Pre-WWI (1896-1912), Event_gender=M, Medal=Silver",Gender=Men,1.0,1.34513559556149
+"Era=Modern Era (1992-2008), Event_gender=M, Medal=Silver",Gender=Men,1.0,1.34513559556149
+"Event_gender=M, NOC=FRA",Gender=Men,1.0,1.34513559556149
+Gender=Men,Event_gender=M,0.9238915235508081,1.34513559556149
+"Era=Late Cold War (1972-1988), Gender=Men, Medal=Bronze",Event_gender=M,0.9217910447761194,1.342077413193179
+"Gender=Men, NOC=FRA",Event_gender=M,0.9185369908561929,1.3373396884213933
+"Era=Late Cold War (1972-1988), Gender=Men, Medal=Silver",Event_gender=M,0.9184852374839538,1.3372643383381697
+"Era=Interwar (1920-1936), Gender=Men, Medal=Bronze",Event_gender=M,0.9184,1.3371402372171834
+"Gender=Men, Sport=Shooting",Event_gender=M,0.9175879396984925,1.335957921772723
+"Era=Late Cold War (1972-1988), Gender=Men",Event_gender=M,0.9172901080631753,1.3355242951791921
+"Gender=Men, Medal=Gold",Event_gender=M,0.9170287887017925,1.3351438284622181
+"Era=Post-WWII (1948-1968), Gender=Men, Medal=Silver",Event_gender=M,0.9157754010695187,1.3333189645293526
+"Era=Post-WWII (1948-1968), Gender=Men, Medal=Bronze",Event_gender=M,0.9157014157014157,1.3332112458744574
+"Era=Post-WWII (1948-1968), Gender=Men",Event_gender=M,0.9144665066550295,1.3314132857533483
+"Era=Post-WWII (1948-1968), Gender=Men, Medal=Gold",Event_gender=M,0.9119373776908023,1.3277310121218375
+"Era=Late Cold War (1972-1988), Gender=Men, Medal=Gold",Event_gender=M,0.9113362887903736,1.3268558595141418
+"Era=Interwar (1920-1936), Gender=Men, Medal=Silver",Event_gender=M,0.9059766763848397,1.3190525565923998
+"Era=Pre-WWI (1896-1912), Medal=Silver",Event_gender=M,0.9051020408163265,1.317779134977025
+Era=Pre-WWI (1896-1912),Event_gender=M,0.9043231750531537,1.3166451489673023
+"Era=Pre-WWI (1896-1912), Medal=Gold",Event_gender=M,0.9040307101727447,1.3162193360757868
+Sport=Cycling,Event_gender=M,0.9034146341463415,1.3153223630312652
+"Era=Pre-WWI (1896-1912), Medal=Silver",Gender=Men,0.9775510204081632,1.314938674028477
+"Era=Pre-WWI (1896-1912), Medal=Gold",Gender=Men,0.9769673704414588,1.3141535856829145
+Era=Pre-WWI (1896-1912),Gender=Men,0.9759036144578314,1.3127226896443458
+"Era=Interwar (1920-1936), Gender=Men",Event_gender=M,0.9014571499135589,1.3124723729056424
+Sport=Wrestling,Gender=Men,0.9754385964912281,1.3120971774248922
+"Gender=Men, NOC=GBR",Event_gender=M,0.8854790419161677,1.2892091203817821
+"Era=Interwar (1920-1936), Gender=Men, Medal=Gold",Event_gender=M,0.882270497547302,1.2845376550306205
+"Era=Interwar (1920-1936), Medal=Gold",Gender=Men,0.9272254710851202,1.2472439862678664
+"Era=Interwar (1920-1936), Medal=Silver",Gender=Men,0.9251517194875253,1.244454509177589
+Era=Interwar (1920-1936),Gender=Men,0.9240073026015518,1.2429151132881044
+Sport=Football,Event_gender=M,0.8500360490266763,1.237606058622264
+"Era=Interwar (1920-1936), Medal=Bronze",Gender=Men,0.9191176470588235,1.236337863567546
+Sport=Sailing,Gender=Men,0.9170593779453345,1.233569212517747
+NOC=FRA,Gender=Men,0.9155251141552512,1.231505419680725
+NOC=ITA,Event_gender=M,0.8452768729641694,1.2306769582202837
+"Era=Interwar (1920-1936), Medal=Bronze",Event_gender=M,0.8441176470588235,1.2289891886187347
+NOC=SWE,Gender=Men,0.9128305582761999,1.2278808766535836
+NOC=FRA,Event_gender=M,0.8409436834094368,1.224368070906344
+"Era=Interwar (1920-1936), Medal=Silver",Event_gender=M,0.8381658799730276,1.2203237408258747
+Sport=Cycling,Gender=Men,0.9034146341463415,1.2152151819414048
+NOC=ITA,Gender=Men,0.9030944625407166,1.2147845077179906
+Era=Interwar (1920-1936),Event_gender=M,0.8329529895025103,1.2127340570276008
+Sport=Shooting,Gender=Men,0.9004524886877828,1.2112306946458666
+Sport=Shooting,Event_gender=M,0.8262443438914027,1.2029666354424065
+"Era=Interwar (1920-1936), Medal=Gold",Event_gender=M,0.8180636777128005,1.1910560323123427
+Sport=Fencing,Event_gender=M,0.8170652876535229,1.1896024309178548
+Event_gender=X,Gender=Men,0.8834847675040085,1.1884068089060091
+Sport=Football,Gender=Men,0.8500360490266763,1.1434137470562342
+NOC=GBR,Gender=Men,0.8381430363864492,1.127416032415402
+"Era=Post-WWII (1948-1968), Medal=Bronze",Gender=Men,0.835933297471759,1.1244436339443549
+"Era=Post-WWII (1948-1968), Medal=Gold",Gender=Men,0.8331521739130435,1.1207026456498719
+Era=Post-WWII (1948-1968),Gender=Men,0.8316095082562148,1.1186275511628214
+Sport=Rowing,Event_gender=M,0.7657550535077289,1.114897532553987
+"Era=Post-WWII (1948-1968), Medal=Bronze",Event_gender=M,0.7654653039268424,1.1144756729902672
+"Era=Post-WWII (1948-1968), Medal=Silver",Gender=Men,0.82560706401766,1.1105534497571683
+Era=Post-WWII (1948-1968),Event_gender=M,0.7604790419161677,1.1072159478511332
+"Era=Post-WWII (1948-1968), Medal=Gold",Event_gender=M,0.7597826086956522,1.1062019791210744
+"Era=Post-WWII (1948-1968), Medal=Silver",Event_gender=M,0.7560706401766004,1.1007975557041454
+Sport=Fencing,Gender=Men,0.8170652876535229,1.0990636023204416
+NOC=GBR,Event_gender=M,0.7421580928481807,1.0805416466938902
+Sport=Hockey,Event_gender=M,0.7107250755287009,1.0347768903404264
+Sport=Rowing,Gender=Men,0.7657550535077289,1.0300443799543395
+Medal=Gold,Gender=Men,0.7476901208244492,1.005744595970638
+Sport=Athletics,Event_gender=M,0.6902552204176334,1.0049738993571793
+NOC=URS,Event_gender=M,0.6896046852122987,1.0040267556302853
+"Medal=Gold, NOC=USA",Event_gender=M,0.6882183908045977,1.0020083866917333
+Medal=Bronze,Event_gender=M,0.688099907111157,1.001835880905634
+Medal=Silver,Event_gender=M,0.6867830939340704,0.9999186728438089
+Medal=Gold,Event_gender=M,0.6856533658239415,0.9982738504209335
+Medal=Silver,Gender=Men,0.7420688229823292,0.9981831881499493
+Medal=Bronze,Gender=Men,0.7404272886778821,0.9959751019257023
+"Medal=Gold, NOC=USA",Gender=Men,0.7279693486590039,0.9792174833589391
+NOC=USA,Event_gender=M,0.6719723183391003,0.9783549925384639
+NOC=URS,Gender=Men,0.7203513909224012,0.9689702972419518
+NOC=USA,Gender=Men,0.7197231833910035,0.968125272930069
+Sport=Gymnastics,Event_gender=M,0.6635049683830172,0.9660269934869854
+Sport=Hockey,Gender=Men,0.7107250755287009,0.9560215977517841
+"Era=Late Cold War (1972-1988), Medal=Bronze",Gender=Men,0.7079459002535926,0.9522832301629315
+"Era=Late Cold War (1972-1988), Medal=Bronze",Event_gender=M,0.6525781910397295,0.9501182024930578
+Era=Late Cold War (1972-1988),Gender=Men,0.6993169597442233,0.9406761351317963
+"Era=Late Cold War (1972-1988), Medal=Gold",Gender=Men,0.6974381625441696,0.9381488981411629
+Era=Late Cold War (1972-1988),Event_gender=M,0.6414765295741898,0.9339547897692592
+"Era=Late Cold War (1972-1988), Medal=Silver",Gender=Men,0.6921368280764105,0.9310178844446031
+Sport=Athletics,Gender=Men,0.6902552204176334,0.9284868670059009
+"Era=Late Cold War (1972-1988), Medal=Silver",Event_gender=M,0.6357174589071524,0.9255698974370805
+"Era=Late Cold War (1972-1988), Medal=Gold",Event_gender=M,0.6356007067137809,0.9253999126205078
+Sport=Gymnastics,Gender=Men,0.6635049683830172,0.8925041508038974
+Sport=Aquatics,Event_gender=M,0.5979623824451411,0.8706005682814113
+"Era=Modern Era (1992-2008), Medal=Bronze",Event_gender=M,0.5535714285714286,0.8059697640643022
+Sport=Aquatics,Gender=Men,0.5979623824451411,0.8043404854337124
+Era=Modern Era (1992-2008),Event_gender=M,0.5467304293585612,0.7960096428640668
+"Era=Modern Era (1992-2008), Medal=Silver",Event_gender=M,0.5442716597905427,0.7924298086704229
+"Era=Modern Era (1992-2008), Medal=Gold",Event_gender=M,0.5420353982300885,0.7891739339824597
+"Era=Modern Era (1992-2008), Medal=Bronze",Gender=Men,0.5802058111380145,0.7804554893133705
+Era=Modern Era (1992-2008),Gender=Men,0.5739681879613265,0.7720650403467082
+"Era=Modern Era (1992-2008), Medal=Gold",Gender=Men,0.5711125158027813,0.7682237740769952
+"Era=Modern Era (1992-2008), Medal=Silver",Gender=Men,0.5702951443986036,0.7671242987064416

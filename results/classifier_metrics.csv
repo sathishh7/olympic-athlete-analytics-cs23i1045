@@ -1,0 +1,3 @@
+Model,Accuracy,Macro_Precision,Macro_Recall,Macro_F1,Weighted_F1
+Majority Baseline,0.3291,0.1097,0.3333,0.1651,0.1083
+Decision Tree (Depth=5),0.3979,0.4671,0.3927,0.3255,0.3277

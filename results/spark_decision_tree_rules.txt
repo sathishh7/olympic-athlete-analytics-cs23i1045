@@ -1,0 +1,68 @@
+DecisionTreeClassificationModel: uid=DecisionTreeClassifier_4bcae182d8f3, depth=5, numNodes=45, numClasses=3, numFeatures=242
+  If (feature 98 in {0.0})
+   If (feature 131 in {0.0})
+    If (feature 99 in {0.0})
+     If (feature 12 in {0.0})
+      If (feature 241 <= 1922.0)
+       Predict: 2.0
+      Else (feature 241 > 1922.0)
+       Predict: 1.0
+     Else (feature 12 not in {0.0})
+      If (feature 147 in {0.0})
+       Predict: 2.0
+      Else (feature 147 not in {0.0})
+       Predict: 1.0
+    Else (feature 99 not in {0.0})
+     If (feature 6 in {0.0})
+      If (feature 2 in {0.0})
+       Predict: 0.0
+      Else (feature 2 not in {0.0})
+       Predict: 2.0
+     Else (feature 6 not in {0.0})
+      Predict: 1.0
+   Else (feature 131 not in {0.0})
+    If (feature 241 <= 1966.0)
+     If (feature 241 <= 1958.0)
+      If (feature 6 in {0.0})
+       Predict: 2.0
+      Else (feature 6 not in {0.0})
+       Predict: 0.0
+     Else (feature 241 > 1958.0)
+      If (feature 241 <= 1962.0)
+       Predict: 2.0
+      Else (feature 241 > 1962.0)
+       Predict: 0.0
+    Else (feature 241 > 1966.0)
+     If (feature 241 <= 1974.0)
+      Predict: 1.0
+     Else (feature 241 > 1974.0)
+      If (feature 6 in {0.0})
+       Predict: 1.0
+      Else (feature 6 not in {0.0})
+       Predict: 0.0
+  Else (feature 98 not in {0.0})
+   If (feature 12 in {0.0})
+    If (feature 54 in {0.0})
+     If (feature 6 in {0.0})
+      If (feature 4 in {0.0})
+       Predict: 0.0
+      Else (feature 4 not in {0.0})
+       Predict: 1.0
+     Else (feature 6 not in {0.0})
+      Predict: 1.0
+    Else (feature 54 not in {0.0})
+     If (feature 241 <= 1974.0)
+      Predict: 1.0
+     Else (feature 241 > 1974.0)
+      Predict: 2.0
+   Else (feature 12 not in {0.0})
+    If (feature 241 <= 1970.0)
+     Predict: 0.0
+    Else (feature 241 > 1970.0)
+     If (feature 241 <= 1978.0)
+      If (feature 236 in {0.0})
+       Predict: 2.0
+      Else (feature 236 not in {0.0})
+       Predict: 0.0
+     Else (feature 241 > 1978.0)
+      Predict: 0.0
